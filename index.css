@@ -81,7 +81,9 @@ background-color: var(--primary-dark-cyan);
 .bg-cream {
 background-color:var(--primary-cream);
 }
-
+.text-white {
+color: var(--neutral-white);
+}
 
 .font-fraunces {
     font-family:  Fraunces "Times New Roman", Times, serif;
@@ -91,28 +93,27 @@ background-color:var(--primary-cream);
 font-size: 3rem;
 }
 .my-2 {
-margin-top: 2rem;
-margin-bottom: 2rem;
+margin: 2rem;
 }
 
 .text-upper {
 text-transform: uppercase;
 letter-spacing: .25rem;
 }
+.mx-2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    }
 .btn {
 border: none;
 display: block;
 border-radius: 8px;
-width: 100%;
-
-
+width: 90%;
+align-items: center;
 padding: .75rem;
 text-align: center;
 }
-.mx-2 {
-margin-left: 2rem;
-margin-right: 2rem;
-}
+
 
 
 
